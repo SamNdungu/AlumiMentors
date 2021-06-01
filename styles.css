@@ -1,0 +1,30 @@
+body,
+main {
+  display: flex;
+}
+body {
+  flex-direction: column;
+}h1, 
+h2, 
+h3 {
+  color: rgb(72, 69, 99);
+}
+main {
+  flex-direction: row;
+  flex: auto;
+}
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+article a,
+aside a {
+  color: maroon;
+  text-decoration: none;
+}
+
+

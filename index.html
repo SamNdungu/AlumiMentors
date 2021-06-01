@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Alumi Mentors</title>
+    <link href="https://alx-apply.hbtn.io/level2/school.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="behavior.js"></script>
+</head>
+
+<body>
+    <header class="works_on_smartphone" >
+        <div class="right">
+            <!-- Load Facebook SDK for JavaScript -->
+            <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+
+            <!-- Your share button code -->
+            <div class="fb-share-button" 
+            data-href="http://127.0.0.1:5500/index.html" 
+            data-layout="button_count">
+            </div>
+
+            <!-- Twitter share button -->
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js"></script>
+            
+        </div>
+        <ul>
+            <li class="logo">🔯</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Talk to Us</a></li>
+            <li><a href="tweets.html">Tweets</a></li> 
+        </ul>
+    </header>
+    <main>
+        <article>
+            <h1>Welcome to Alumi Mentors</h1> 
+            
+            <a href="about.html"><img src="https://t3.ftcdn.net/jpg/02/85/41/62/240_F_285416224_gfiifpDkixoqWSWvqfmvOItzKepfjoNG.jpg" alt="Homepage Image"></a>
+               
+            <h2>We've mentored more than 500 highschool students this year!</h2>
+            <p>
+               Here at <em>Alumi Mentors</em>, we have visited more than five local day schools where we gave motivation talks on academic excellence and life skills. We encourage them to pursue excellence, aim high education as it provides broader opportunities and to be all-round students. <a href="contact.html">Talk to us.</a>
+            </p>
+                    
+            <h2>Our Model</h2> 
+            <p>
+                We visit primary and secondary schools and offer seesions on mentorship programs. In every term we make sure we have a session on various selected topics with teens and youths.
+            </p>
+            
+            <h2>Alumi Mentors goals</h2>
+            <p>
+               Our main aim is to inspire teens to reach greator heights in academics, and pursue life beyond high school. We beleive in potential of every young teen in school to prosper in life.
+            </p>
+
+            <h3>Our great mission</h3>
+
+            <p>
+                We wish to to visit more schools and kids and teens coding local bootcamps in both public and private schools.
+            </p>
+
+            <img id="smart_thumbnail" class="small" src="https://images.all-free-download.com/images/graphiclarge/architecture_bridge_building_city_connection_603216.jpg" alt="">
+
+        </article>
+
+        <aside> 
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://alumimentors-1.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>   
+        </aside>
+    </main>
+    
+    <footer>
+        <p>
+            Made by Wainaina Samuel Ndungu for <a href="https://alx-apply.hbtn.io" target="_blank">ALX</a>
+        </p>
+    </footer>
+</body>
+</html>
